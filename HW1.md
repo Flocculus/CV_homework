@@ -20,5 +20,10 @@ V=[-0.9239 -0.3827 ; 0.3827 -0.9239]
 We know that any shear transform can be decompsed to three transforms:
 
 1.Rotate by &alpha;
+
 2.Do a magnification transform
+
 3.Rotate back by &beta; 
+
+We also note that matrixes U and V are rotation matrixes, matrix X is a magnification matrix. So we can create a matrix v and let v*X*V' is a shear tranform, that is:
+A=U*X*V'=&alpha;*I*U*v'*v*X*V
