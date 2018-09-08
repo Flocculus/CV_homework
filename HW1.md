@@ -29,7 +29,7 @@ We also note that matrixes U and V are rotation matrixes, matrix X is a magnific
 ```
 A=U*X*V'=&alpha;*I*U*v'*v*X*V'=M*R*S
 ```
-where we can use v*X*V' to generate S, U*v' to generate R and &alpha;*I to generate M.
+where we can use v\*X\*V' to generate S, U*v' to generate R and &alpha;*I to generate M.
 
 Finally what we get is:
 ```
