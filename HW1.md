@@ -7,7 +7,7 @@
 Apply SVD on the giving matrix, then rearrange the singular value matrix and the corresponding martix. What we get will be
 ```matlab
 A=U*S*V'
-```matlab
+```
 where 
 ```matlab
 U=[-0.9239 -0.3827; 0.3827 -0.9239]
