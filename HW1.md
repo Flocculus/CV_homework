@@ -19,6 +19,6 @@ V=[-0.9239 -0.3827 ; 0.3827 -0.9239]
 
 We know that any shear transform can be decompsed to three transforms:
 
-####rotate by &alpha;
-####do a magnification transform
-####rotate back by &beta; 
+1.Rotate by &alpha;
+2.Do a magnification transform
+3.Rotate back by &beta; 
