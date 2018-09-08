@@ -5,11 +5,11 @@
 ### 1.Decompose the matrix A=[1 1 ; 1 3]
 
 Apply SVD on the giving matrix, then rearrange the singular value matrix and the corresponding martix. What we get will be
-```matlab
+```
 A=U*S*V'
 ```
 where 
-```matlab
+```
 U=[-0.9239 -0.3827 ; 0.3827 -0.9239]
 X=[0.5858 0 ; 0 3.4142]
 V=[-0.9239 -0.3827 ; 0.3827 -0.9239]
@@ -25,7 +25,16 @@ We know that any shear transform can be decompsed to three transforms:
 
 3.Rotate back by &beta; 
 
-We also note that matrixes U and V are rotation matrixes, matrix X is a magnification matrix. So we can create a matrix v and let ***v*X*V'*** is a shear tranform, that is:
+We also note that matrixes U and V are rotation matrixes, matrix X is a magnification matrix. So we can create a matrix v and let v*X*V' be a shear tranform, that is:
 ```
-A=U*X*V'=&alpha;*I*U*v'*v*X*V
+A=U*X*V'=&alpha;*I*U*v'*v*X*V'=M*R*S
 ```
+where we can use v*X*V' to generate S, U*v' to generate R and &alpha;*I to generate M.
+
+Finally what we get is:
+```
+v=[-0.3827 -0.9239 ; 0.9239 -0.3827]
+M=[1.1413 0 ; 0 1.1413];
+R=[0.7071 -0.7071 ; 0.7071 0.7071];
+S=[1 2 ; 0 1];
+```    
