@@ -1,6 +1,6 @@
 # Problem 1
 
-## Devide the matrix to M(magnification matrix)*R(rotation matrix)*S(shear matrix)
+## Find matrix M(magnification matrix) R(rotation matrix) S(shear matrix) where A=[1 1 ; 1 3]=M*R*S
 
 ### 1.Decompose the matrix A=[1 1 ; 1 3]
 
@@ -11,6 +11,14 @@ A=U*S*V'
 where 
 ```matlab
 U=[-0.9239 -0.3827 ; 0.3827 -0.9239]
-S=[0.5858 0 ; 0 3.4142]
+X=[0.5858 0 ; 0 3.4142]
 V=[-0.9239 -0.3827 ; 0.3827 -0.9239]
-```matlab
+```
+
+### 2.Create matrixes M, R and S
+
+We know that any shear transform can be decompsed to three transforms:
+
+####rotate by &alpha;
+####do a magnification transform
+####rotate back by &beta; 
