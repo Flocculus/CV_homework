@@ -43,4 +43,11 @@ where v is the rotation matrix we find. M is the magnification matrix, R is the 
 
 ## interpolation
 
-If we just maping every input point to image by using matlab, we may meet some problems. For example an 2x2 square can be represented by a 2x2 matrix [1 1 ; 1 1]. If we want to magnify it to a 4x4 square, that is [X；Y]=[2 0 ; 0 2]*[x;y], what we get is not [1 1 1 1 ;1 1 1 1 ; 1 1 1 1 ; 1 1 1 1] but [0 0 0 0 ; 0 1 0 1 ; 0 0 0 0 ; 0 1 0 1]. In this case, we need to use some interpolation algorithm to make up the holes.
+If we just maping every input point to image by using matlab, we may meet some problems. For example an 2x2 square can be represented by a 2x2 image [1 1 ; 1 1]. If we want to magnify it to a 4x4 square, that is [X；Y]=[2 0 ; 0 2]*[x;y], what we get is not [1 1 1 1 ;1 1 1 1 ; 1 1 1 1 ; 1 1 1 1] but [0 0 0 0 ; 0 1 0 1 ; 0 0 0 0 ; 0 1 0 1]. In this case, we need to use some interpolation algorithm to make up the holes.
+
+### nearest neighbor algorithm
+In my matlab algorithm, I use the nearest neighbor method to interpolate these holes, that is, the value of a hole is the value of the nearest point.
+
+### the way to realize the algorithm.
+The way I realize the nearest neighbor is some kind of "oversampling". As the previous example, instead of just calculate the new coordinate of point (1,1), (1,2), (2,1), (2,2), we also calculate the coordinate of some not exist point like (1,1.1), (1,1.2) ...
+For example, when we calculate the new coordinate of point(1.5,1.5), we will map it to (3,3), and then we just need to assign the value of point (1.5,1.5)'s nearest neighbot  (2,2) to it.
