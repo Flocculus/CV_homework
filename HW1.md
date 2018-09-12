@@ -72,7 +72,7 @@ For example, when we calculate the new coordinate of point(1.5,1.5), we will map
 ### Input, after down sampling
 ![](https://github.com/Flocculus/CV/blob/master/pic/face_input.png)
 ### After shearing
-![1](https://github.com/Flocculus/CV/blob/master/pic/2shearing.png])
+![1](https://github.com/Flocculus/CV/blob/master/pic/2shearing.png)
 ### After rotation
 ![](https://github.com/Flocculus/CV/blob/master/pic/3rotation_without_interpolation.png)
 ### After interpolation
