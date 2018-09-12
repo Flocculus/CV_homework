@@ -6,7 +6,7 @@
 
 Apply SVD on the giving matrix, then rearrange the singular value matrix and the corresponding martix. What we get will be
 ```
-A=U*S*V'
+A=U*\S\*V'
 ```
 where 
 ```
@@ -30,6 +30,14 @@ We also note that matrixes U and V are rotation matrixes, matrix X is a magnific
 A=U*X*V'=α*I*U*v'*v*X*V'=M*R*S
 ```
 where we can use v\*X\*V' to generate S, U*v' to generate R and &alpha;*I to generate M.
+
+### 3.Get matrix v 
+
+The shearing matrix S = v\*X\*V' can be explain as: 1. Rotate every point of the original picture by degree &alpha;. 2. Do a magnification transform. 3 Rotate the picture back to the original picture by degree &beta;. What we want to find is just the degree &beta as the following picture shows:
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/20180912_130520.jpg)
+
+Sine we already know the matrix S, X and V', it is easy to get v.
 
 Finally what we get is:
 ```
