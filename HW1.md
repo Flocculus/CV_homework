@@ -83,4 +83,4 @@ For example, when we calculate the new coordinate of point(1.5,1.5), we will map
 ### After interpolation
 ![](https://github.com/Flocculus/CV/blob/master/pic/6magnification_with_interpolation.png)
 ### After translation (no difference between the previous since I center the image)
-![](https://github.com/Flocculus/CV/blob/master/pic/7translation(no_different_since_I_center_the_image.png)
+![](https://github.com/Flocculus/CV/blob/master/pic/7translation(no_different_since_I_center_the_image.png))
