@@ -59,3 +59,28 @@ In my matlab algorithm, I use the nearest neighbor method to interpolate these h
 ### the way to realize the algorithm.
 The way I realize the nearest neighbor is some kind of "oversampling". As the previous example, instead of just calculate the new coordinate of point (1,1), (1,2), (2,1), (2,2), we also calculate the coordinate of some not exist point like (1,1.1), (1,1.2) ...
 For example, when we calculate the new coordinate of point(1.5,1.5), we will map it to (3,3), and then we just need to assign the value of point (1.5,1.5)'s nearest neighbot  (2,2) to it.
+
+## Using a square as input
+![square](https://github.com/Flocculus/CV/blob/master/pic/i%26o_picture.png)
+
+
+## Using my face as input
+
+### Input, original picture from my phone
+![](https://github.com/Flocculus/CV/blob/master/pic/original_face.png)
+
+### Input, after down sampling
+![](https://github.com/Flocculus/CV/blob/master/pic/face_input.png)
+
+### After shearing
+![](https://github.com/Flocculus/CV/blob/master/pic/2shearing.png])
+### After rotation
+![](https://github.com/Flocculus/CV/blob/master/pic/3rotation_without_interpolation.png)
+### After interpolation
+![](https://github.com/Flocculus/CV/blob/master/pic/4rotation_with_interpolation.png)
+### After magnification
+![](https://github.com/Flocculus/CV/blob/master/pic/5magnification_without_interpolation.png)
+### After interpolation
+![](https://github.com/Flocculus/CV/blob/master/pic/6magnification_with_interpolation.png)
+### After translation (no difference between the previous since I center the image)
+![](https://github.com/Flocculus/CV/blob/master/pic/7translation(no_different_since_I_center_the_image.png)
