@@ -4,4 +4,4 @@ The phase response is P_&alpha;
 
 The phase change in frequency domain is just the space shift in space domain
 
-So without the phase response, or just set all the phase response to 0, is just overlape a lot of wave ***e<sup>j&alpha;i</sup>*** at the origin point 
+So without the phase response, or just set all the phase response to 0, is just overlape a lot of wave ***e<sup>j&omega;i</sup>*** at the origin point 
