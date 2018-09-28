@@ -23,7 +23,8 @@ Due to the duality of lines and points in homogeneouls coordinate axis, these tw
 ```
 The input is a (n,3) matirx, it contains an homogeneous coordinate of a point/line in each row.
 
-Assume the point/line we get is (a,-1,b) and the format of the line/point is (x,1,y) the point/line should lie on the line/point: [1/b]=[a/b,1]*[x,y]', it has the form Y=HX
+Assume the point/line we get is (a,-1,b) and the format of the line/point is
+(x,1,y) the point/line should lie on the line/point: [1/b]=[a/b,1]*[x,y]', it has the form Y=HX
 
 Then we want to minimizing J(X)=||Y-HX||^2
 
@@ -31,11 +32,11 @@ X=inv(H'*H)*H'*Y;
 ```
 
 The following picture is the input picture:
-![](https://github.com/Flocculus/CV/blob/master/pic/input.jpg)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/input.jpg)
 The following picture shows the vanishing line (red line) and the vertical vanishing point (blue point):
-![](https://github.com/Flocculus/CV/blob/master/pic/VanishingPoint%26Line.jpg)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/VanishingPoint%26Line.jpg)
 The following picture shows the transferred point, (purple point transfer to orange point, green point transfer to yellow point):
-![](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
 
 
 
