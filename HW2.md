@@ -53,6 +53,19 @@ Then you can easily calculate the height of the desk from the height of the man 
 
 
 # P3
+
+The following pictures are the input of the homwork:
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/1.jpg)
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/2.jpg)
+
+The following pictures are the solutions of the homwork:
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP1P3output1.png)
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP1P3output2.png)
+
 Assume the fourier transform of a picture is &alpha;, the amplitude response is A_&alpha; and the phase response is P_&alpha;
 
 We also know that the **phase change** in frequency domain is just the **space shift** in space domain
