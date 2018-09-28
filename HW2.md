@@ -1,4 +1,4 @@
-#P1
+# P1
 
 The total troutine is similar to the previous homework.
 
@@ -15,7 +15,27 @@ The following picture is the answer for question 1, the top one shows the points
 The following picture is the answer for question2.
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/output2.jpg)
 
+# P2
 
+The first problem is to write two matlab functions: a function that fits a line to a set of points and a function determines the intersection of a set of lines. I will use least square method to find the best solution.
+
+Due to the duality of lines and points in homogeneouls coordinate axis, these two functions are exactly the same.
+```
+The input is a (n,3) matirx, it contains an homogeneous coordinate of a point/line in each row.
+
+Assume the point/line we get is (a,-1,b) and the format of the line/point is (x,1,y) the point/line should lie on the line/point: [1/b]=[a/b,1]*[x,y]', it has the form Y=HX
+
+Then we want to minimizing J(X)=||Y-HX||^2
+
+X=inv(H'*H)*H'*Y;
+```
+
+The following picture is the input picture:
+![](https://github.com/Flocculus/CV/blob/master/pic/input.jpg)
+The following picture shows the vanishing line (red line) and the vertical vanishing point (blue point):
+![](https://github.com/Flocculus/CV/blob/master/pic/VanishingPoint%26Line.jpg)
+The following picture shows the transferred point, (purple point transfer to orange point, green point transfer to yellow point):
+![](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
 
 
 
