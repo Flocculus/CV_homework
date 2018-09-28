@@ -43,7 +43,7 @@ The following picture shows the transferred point, (purple point transfer to ora
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
 
 
-
+Then you can easily calculate the height of the desk from the height of the man in the picture.
 
 
 
