@@ -9,7 +9,7 @@ Second, I use SVD or just the command ***null()*** to find the eigvector of the 
 Third, after getting transformation matrix H, I just need to do transformation and interpolation as the previous homework.
 
 The following picture is the input:
-![pic](https://github.com/Flocculus/CV/blob/master/pic/inputCPV1P1.jpg)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/inputCVP1P1.jpg)
 The following picture is the answer for question 1, the top one shows the points I choose, the bottom one is the corrected picture.
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/output1.jpg)
 The following picture is the answer for question2.
