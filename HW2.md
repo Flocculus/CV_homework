@@ -1,6 +1,6 @@
 # P1
 
-The total troutine is similar to the previous homework.
+The total routine is similar to the previous homework.
 
 First, I need to choose 4 points and create 4 corresponding new points. From these four pair of points, I can generate 8 equations to find the exact value of H matrix's 8 unknow parameters.
 
@@ -35,9 +35,11 @@ X=inv(H'*H)*H'*Y;
 The following picture is the input picture:
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/input.jpg)
+
 The following picture shows the vanishing line (red line) and the vertical vanishing point (blue point):
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/VanishingPoint%26Line.jpg)
+
 The following picture shows the transferred point, (purple point transfer to orange point, green point transfer to yellow point):
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
