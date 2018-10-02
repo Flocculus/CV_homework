@@ -74,9 +74,9 @@ So without the phase response, or just set all the phase response of &alpha; to 
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/example_of_overlape.png)
 
-No matter the weights of different waves, when we overlape all these wave, what we will get is a spike like wave. And this is why the four corners of our reconstructed picture are significantly bright. So amplitude reponse contains little information.
+No matter the weights of different waves, when we overlape all these wave, what we will get is a spike like wave. And this is why the centers of our reconstructed picture are significantly bright. So amplitude reponse contains little information.
 
-![pic](https://github.com/Flocculus/CV/blob/master/pic/HWP2.png)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/HWP_2.png)
 
 On the other hand, the phase response P_&alpha; can be generate as the original fourier transform &alpha; times a special filter &beta;, whose amplitude response is just the **reciprocal** of A_&alpha; and whose phase response is just 1 at everywhere.
 
