@@ -36,16 +36,28 @@ The following picture is the input picture:
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/input.jpg)
 
+Then we choose 9 points to fit to 3 lines, and use these 3 lines to find 1 vanishing point:
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP2Point1.png)
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP2Point2.png)
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP2Point3.png)
+
 The following picture shows the vanishing line (red line) and the vertical vanishing point (blue point):
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/VanishingPoint%26Line.jpg)
+
+Then we choose the represent points of the man and the desk
+
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP2Point4.png)
 
 The following picture shows the transferred point, (purple point transfer to orange point, green point transfer to yellow point):
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
 
 
-Then you can easily calculate the height of the desk from the height of the man in the picture.
+Then you can easily calculate the height of the desk from the height of the man in the picture. In my picture, assume I am 1.7m tall, the height of the desk is about 1.05m.
 
 
 
