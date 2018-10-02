@@ -84,6 +84,6 @@ That is **P_&alpha; = &alpha; * &beta;**
 
 And we know the multiplying in frequency domain is just equal to the convolution in space domain.
 
-Also note that &beta; is also a overlap of a lot of waves ***e<sup>j&omega;x</sup>*** , so &beta; just looks like a **impulse function** .
+Also note that &beta; is also an overlap of a lot of waves ***e<sup>j&omega;x</sup>*** , so &beta; just looks like a **impulse function** .
  
 Any singal convolutes with a impulse like function will not change a lot. So phase response P_&alpha; contains more information.
