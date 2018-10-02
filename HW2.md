@@ -13,7 +13,7 @@ The following picture is the input:
 
 The following picture is the answer for question 1, the top one shows the points I choose, the bottom one is the corrected picture.
 
-![pic](https://github.com/Flocculus/CV/blob/master/pic/output1.jpg) ![pic](https://github.com/Flocculus/CV/blob/master/pic/output2.jpg)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/output1.jpg) 
 
 The following picture is the answer for question2.
 
