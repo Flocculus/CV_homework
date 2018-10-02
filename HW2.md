@@ -10,6 +10,11 @@ Third, after getting transformation matrix H, I just need to do transformation a
 
 The following picture is the input:
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/inputCVP1P1.jpg)
+
+<figure class="half">
+    <img src="https://github.com/Flocculus/CV/blob/master/pic/output1.jpg">
+    <img src="https://github.com/Flocculus/CV/blob/master/pic/output2.jpg">
+</figure>
 The following picture is the answer for question 1, the top one shows the points I choose, the bottom one is the corrected picture.
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/output1.jpg)
 The following picture is the answer for question2.
