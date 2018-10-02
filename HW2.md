@@ -62,7 +62,7 @@ The following pictures are the input of the homwork:
 
 The following pictures are the solutions of the homwork:
 
-![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP1P3output1.png)
+![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP1P_3output1.png)
 
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/CVP1P3output2.png)
 
