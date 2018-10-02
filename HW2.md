@@ -61,7 +61,7 @@ The following picture shows the transferred point, (purple point transfer to ora
 ![pic](https://github.com/Flocculus/CV/blob/master/pic/TransferredPoint.jpg)
 
 
-Then you can easily calculate the height of the desk from the height of the man in the picture. In my picture, assume I am 1.7m tall, the height of the desk is about 1.05m.
+Then you can easily calculate the height of the desk from the height of the man in the picture. In my picture, assume I am 1.7m tall, the height of the desk is about 0.71m.
 
 
 
