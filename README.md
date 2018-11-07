@@ -1,10 +1,9 @@
 # CV
-```flow
-st=>start: 开始
-e=>end: 结束
-op=>operation: 操作
-cond=>condition: 确认？
-
+flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
